@@ -66,7 +66,6 @@ public class SearchAndHighlight {
 				
 				
 				// It scores text fragments by the number of unique query terms found
-		        // Basically the matching score in layman terms
 				QueryScorer scorer = new QueryScorer(query);
 				
 				
